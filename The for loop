@@ -1,0 +1,19 @@
+/*
+The For loop / Java / Oct 10 2019
+gbaylis
+The for loop, prints a sentence, increments the # of cups by 1 and prints the Integer
+The for loop will stop at Cups of coffee this week: 4 (because i < 5)
+*/
+// I named this program Main, you can name it anything you like
+public class Main {
+    // boiler plate code
+    public static void main(String[] args) {
+        
+    // start counting at 0 , run the code until less then 5 and increment by 1    
+        for(int i=0; i < 5; i++) {
+            System.out.println("Cups of coffee this week: " + i);
+        }
+        
+    } 
+}
+
