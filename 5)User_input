@@ -1,0 +1,64 @@
+/*
+Getting User Input / Java / Oct 10 2019
+gbaylis
+
+this program will ask the user to type in information about a potential pet, strings and numbers
+the program will store the information and can print it out
+
+variables
+pet_number = # of pets
+pet_type = what kind of animal is the pet?
+pet_name = the name of the pet 
+pet_age = the age of the pet
+pet_color = the color of the pet
+
+*/
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Scanner newPet = new Scanner(System.in);
+        
+    // ask the user, how many pets would they want
+    System.out.println("> If you were to get some pets, how many would you want?... ");
+     // store the number of pets, as an integer variable named pet_number
+    int pet_number = newPet.nextInt();
+        
+         Scanner newPet2 = new Scanner(System.in);
+    // user is getting a new pet, ask them what animal it would be
+        System.out.println("> What type of animal would this pet be?... ");
+        // store the user's answer as string called pet_type
+        String pet_type = newPet2.nextLine();
+        
+       Scanner newPet3 = new Scanner(System.in);
+        // ask the user to name the pet
+        System.out.println("> Please give a name to your pet:...");
+        // store the pet's name as a string variable called pet_name
+        String pet_name = newPet3.nextLine();
+        
+        // ask the user to give the pet an age  
+        System.out.println(" Please answer the following question as a decimal");
+        System.out.println(" What is the age of this pet in years?...");
+        
+        // save the age as a double variable named pet_age
+        double pet_age = newPet.nextDouble();
+        
+        Scanner newPet4 = new Scanner(System.in);
+        // ask the user, what color would their pet be
+        System.out.println(" What color is the pet's fur / feathers / skin? ");
+        // store the color of the pet as a string variable called pet_color
+        String pet_color = newPet4.nextLine();
+        
+        // Print the information that the user typed
+        // the name, age, color, number and the type of animal it is
+        System.out.println("Here is a summary of pet(s), based on what you typed");
+        System.out.println(" Number of pets..... " + pet_number);
+        System.out.println(" The pet(s) is a " + pet_type);
+        System.out.println(" The " + pet_type + " name is " + pet_name);
+        System.out.println(" The " + pet_type + " is " + pet_age + " years old");
+        System.out.println(" The " + pet_type + " is " + pet_color);
+    
+    }
+}
