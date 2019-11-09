@@ -1,0 +1,27 @@
+public class Main {
+    
+    public static void main(String[] args) {
+        int[] intArray = new int[7];
+        
+        // create 7 arrays, starting with 0
+        intArray[0] = -10;
+        intArray[1] = -5;
+        intArray[2] = 0;
+        intArray[3] = 5;
+        intArray[4] = 11;
+        intArray[5] = 21;
+        intArray[6] = 35;
+        
+        int index = -1;
+        for (int i = 0; i < intArray.length; i++) {
+        // if the array is equal to 21, which is index # 5
+            if (intArray[i] == 21 ) {
+                index = i;
+                //break or end the for loop
+                break;
+            }
+        }
+        // print "index number" and the index that is equal to 21
+        System.out.println("index number = " + index);
+    }
+}
