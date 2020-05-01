@@ -1,5 +1,5 @@
 /*
-The formatted For loop / Java / Oct 10 2019
+The formatted For loop / Java 
 gbaylis
 The formatted for loop, prints a sentence, increments the # of cups by 1 and prints the Integer
 The for loop will stop at Cups of coffee this week: 4 (because i < 5)
