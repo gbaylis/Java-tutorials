@@ -1,0 +1,24 @@
+/*
+gbaylis | Java
+print a list of arrays
+*/
+public class Main {
+    
+    public static void main(String[] args) {
+        int[] intArray = new int[7];
+        
+        // create an array, zero through six
+        intArray[0] = -50;
+        intArray[1] = -25;
+        intArray[2] = 0;
+        intArray[3] = 6;
+        intArray[4] = 12;
+        intArray[5] = 18;
+        intArray[6] = 24;
+        
+        for (int i = 0; i < intArray.length; i++) {
+        // the " " , creates a space between the numbers, when it prints
+            System.out.print(" "+  intArray[i]);
+        }
+    }
+}
