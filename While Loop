@@ -1,5 +1,5 @@
 /*
-The While loop / Java / Oct 10 2019
+The While loop / Java
 gbaylis
 this code uses the while loop to print a sentence and the # of cups of coffee
 I set the while loop to start at 0, increment by + 1 and stop at 4 (or < 5)
