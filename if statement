@@ -1,0 +1,18 @@
+/*
+gbaylis | Java | if statement 
+
+*/
+public class Main {
+	public static void main (String[] args) {
+// create an int and give it a name and value		
+		int myNumber = 10;
+// an if statement , print the string if the statement is true		
+		if(myNumber >  30) {
+			System.out.println("My number is greater than 30");
+		}
+// print this string, if this statement is true 		
+		else if(myNumber <= 30) {
+			System.out.println("My number is equal to or less than 30");
+		}
+	}
+}
