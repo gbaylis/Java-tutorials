@@ -1,0 +1,15 @@
+
+public class Main {
+
+	public static void main(String [] args) {
+	
+	String phrase = " sitting in a chair on a nice day";
+	System.out.println(phrase);
+	
+	int age = 30;
+	System.out.println(age);
+	
+	double gpa = 2.7;
+	System.out.println(gpa);
+	}
+}
