@@ -1,14 +1,14 @@
-
+// gbaylis | Java | string, int and floats
 public class Main {
 
 	public static void main(String [] args) {
-	
+// a string is a string of words and numbers	
 	String phrase = " sitting in a chair on a nice day";
 	System.out.println(phrase);
-	
+// an int is a whole number, as in integer 	
 	int age = 30;
 	System.out.println(age);
-	
+// double is a number with a decimal	
 	double gpa = 2.7;
 	System.out.println(gpa);
 	}
