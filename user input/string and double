@@ -13,7 +13,7 @@ public class Main {
 // ask the user how many food items they want to eat, the answer will be a double 
         Scanner amount = new Scanner(System.in);
         
-        System.out.println("How servings of that food, do you wnt to eat?...");
+        System.out.println("How servings of that food, do you want to eat?...");
         System.out.println(" Please type your answer as a decimal");
 // the answer will be stored as a double named amount_servings        
         double amount_servings = amount.nextDouble();
