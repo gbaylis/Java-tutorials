@@ -1,0 +1,24 @@
+// gbaylis | Java | User Input
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+    // scanner allows for user input, give it a variable name    
+        Scanner food = new Scanner(System.in);
+// ask the user what they want to eat, the answer will be a string        
+        System.out.println(" What do you want to eat? .. ");
+// store the string as food_item 
+        String food_item = food.nextLine();
+        
+// ask the user how many food items they want to eat, the answer will be a double 
+        Scanner amount = new Scanner(System.in);
+        
+        System.out.println("How servings of that food, do you wnt to eat?...");
+        System.out.println(" Please type your answer as a decimal");
+// the answer will be stored as a double named amount_servings        
+        double amount_servings = amount.nextDouble();
+// print a line telling the user what they requested
+// amount_servings is the double variable and food_item is the string
+        System.out.println(" You requested: " + amount_servings + " servings of " + food_item);
+    }
+}
