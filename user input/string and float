@@ -10,7 +10,7 @@ public class Main {
 // store the string as food_item 
         String food_item = food.nextLine();
         
-// ask the user how many food items they want to eat, the answer will be a double 
+// ask the user how many food items they want to eat, the answer will be a float 
         Scanner amount = new Scanner(System.in);
         
         System.out.println("How servings of that food, do you want to eat?...");
