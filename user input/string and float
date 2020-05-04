@@ -15,10 +15,10 @@ public class Main {
         
         System.out.println("How servings of that food, do you want to eat?...");
         System.out.println(" Please type your answer as a decimal");
-// the answer will be stored as a double named amount_servings        
-        double amount_servings = amount.nextDouble();
+// the answer will be stored as a float named amount_servings        
+        float amount_servings = amount.nextFloat();
 // print a line telling the user what they requested
-// amount_servings is the double variable and food_item is the string
+// amount_servings is the float variable and food_item is the string
         System.out.println(" You requested: " + amount_servings + " servings of " + food_item);
     }
 }
